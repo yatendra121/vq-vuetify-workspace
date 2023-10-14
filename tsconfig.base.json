@@ -1,0 +1,12 @@
+{
+  "compileOnSave": true,
+  "moduleDetection": "auto",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@qnx/composables/*": ["libs/composables/src/*"],
+      "@qnx/vuetify/*": ["libs/vq-vuetify/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
